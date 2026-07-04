@@ -1,7 +1,7 @@
 ---
 layout: recipe
-title: 番茄炒蛋
-date: 2026/7/4 12:28:48 +8000
+title:  番茄炒蛋
+date:   2026-07-04 12:28:48 +8000
 ingredients:
   - 鸡蛋 <em>2 个</em>
   - 番茄 <em>2 个</em>
