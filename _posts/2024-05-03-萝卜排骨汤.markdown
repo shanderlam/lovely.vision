@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title:  萝卜排骨汤
-date:   2024-05-03 17:42:47 +8000
+date:   2024-05-03 17:42:47 +0800
 ingredients:
   - 排骨 <em>1 斤</em>
   - 萝卜 <em>1 根</em>
