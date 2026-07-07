@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title:  番茄炒蛋
-date:   2026-07-04 12:28:48 +0800
+date:   2019-11-10 21:42:00 +0800
+last_modified_at: 2026-07-04 12:28:48 +0800
 ingredients:
   - 鸡蛋 <em>2 个</em>
   - 番茄 <em>2 个</em>

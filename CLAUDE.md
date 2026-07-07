@@ -70,7 +70,8 @@ BUNDLE_BUILD__EVENTMACHINE: "--with-cppflags='-stdlib=libc++ -I/Library/Develope
 ---
 layout: recipe
 title:  菜名            # 中文标题，前置一个全角空格（保持现有风格）
-date:   YYYY-MM-DD HH:MM:SS +0800
+date:   YYYY-MM-DD HH:MM:SS +0800      # 原始创建时间（决定 URL 与首页排序，**不要随意改**）
+last_modified_at: YYYY-MM-DD HH:MM:SS +0800   # 可选：最后一次修改时间
 ingredients:
   - 食材名 <em>份量</em>   # 数量用 <em> 包裹以在 recipe.html 中通过浏览器默认样式加粗/斜体
 directions:
@@ -82,6 +83,8 @@ tips:
 ```
 
 正文中只需写前言或留空，主体内容由 `recipe.html` 自动渲染三个列表。修改现有菜谱时保持 front-matter 字段顺序与缩进风格一致。
+
+> **不要把 `date` 改成"最后修改时间"**。Jekyll 用 `date` 生成 URL（`/:year/:month/:day/:title/`）和首页/feed 排序，改动会让老链接 404、Disqus 评论飘走、列表顺序错乱。需要表达"已更新"时，**加 `last_modified_at` 字段**，原 `date` 保留。
 
 ### Disqus 评论
 
